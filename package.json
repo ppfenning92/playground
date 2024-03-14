@@ -1,4 +1,27 @@
 {
   "name": "playgound",
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
+    "@types/shortid": "^0.0.32",
+    "bunyan": "^1.8.15",
+    "class-validator": "^0.14.1",
+    "flakeid": "^1.0.1",
+    "flakeid53": "^1.0.5",
+    "ksuid": "^3.0.0",
+    "nanoid": "^5.0.6",
+    "nodemon": "^3.1.0",
+    "pino": "^8.19.0",
+    "roarr": "^7.21.1",
+    "shortid": "^2.2.16",
+    "ulid": "^2.3.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.12.0",
+    "xid-ts": "^1.1.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/bunyan": "^1.8.11",
+    "@types/uuid": "^9"
+  }
 }
