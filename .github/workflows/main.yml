@@ -15,4 +15,4 @@ jobs:
     strategy:
       matrix:
         app: [admin,server]
-    uses: ./${{ matrix.app }}/.github/workflow/deploy.yml
+    uses: ./${{ matrix.app }}/.github/workflow/deploy.yml@main
