@@ -1,0 +1,9 @@
+on:
+  workflow_call:
+
+jobs:
+  yay:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "deploy server"

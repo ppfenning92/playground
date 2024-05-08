@@ -1,0 +1,17 @@
+on:
+  push:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "generate matrix"
+
+  deploy:
+    needs: [generate]
+    secrets: inherit
+    strategy:
+      matrix:
+        app: [admin,server]
+    uses: ./${{ matrix.app }}/.github/workflow/deploy.yml
