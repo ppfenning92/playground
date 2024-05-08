@@ -1,5 +1,5 @@
 on:
-  push:
+  gollum:
     branches:
       - main
 jobs:
